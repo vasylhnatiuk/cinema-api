@@ -4,7 +4,7 @@ API service for cinema management with Docker and PostgresSQL.
 ## Installing
 
 Install PostgresSQL db and create db
-
+```shell
 git clone https://github.com/vasylhnatiuk/cinema-api/git
 
 python -m venv venv
@@ -12,15 +12,15 @@ python -m venv venv
 venv/scripts/activate
 
 pip install -r requirements.txt
-```shell
+
 set DB_HOST=<your db hostname>
 set DB_NAME=<your db name>
 set DB_USER=<your db username>
 set DB_PASSWORD=<your db user password>
 set SECRET_KEY=<your secret key>
-```
-python manage.py runserver
 
+python manage.py runserver
+```
 ## Run with docker
 
 Docker should be installed
