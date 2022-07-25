@@ -1,7 +1,7 @@
 # cinema-api
 API service for cinema management with docker.
 
-#Installing
+## Installing
 
 Install PostgresSQL db and create db
 
@@ -21,19 +21,19 @@ set SECRET_KEY=<your secret key>
 
 python manage.py runserver
 
-#Run with docker
+## Run with docker
 
 Docker should be installed
 
 docker-compose build
 docker-compose up
 
-#Getting access
+## Getting access
 
 create user on /api/user/register/
 get access token on /api/user/token/
 
-#Features
+## Features
 
 User functionality
 Managing orders and ticket.
