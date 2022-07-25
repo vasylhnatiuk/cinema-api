@@ -31,6 +31,7 @@ docker-compose up
 ## Getting access
 
 create user on /api/user/register/
+
 get access token on /api/user/token/
 
 ## Features
