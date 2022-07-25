@@ -36,7 +36,7 @@ get access token on /api/user/token/
 
 ## Features
 
-* User functionality
+* User functionality.
 * Managing orders and ticket.
 * Creating movies with genres, actors, cinema halls.
 * Adding movies with associated actors, genres.
