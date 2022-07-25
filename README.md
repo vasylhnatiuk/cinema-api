@@ -1,5 +1,5 @@
 # cinema-api
-API service for cinema management with docker.
+API service for cinema management with Docker and PostgresSQL.
 
 ## Installing
 
